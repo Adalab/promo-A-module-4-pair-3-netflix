@@ -1,3 +1,5 @@
+--Dia 1
+
 CREATE TABLE `movies` (
   `idmovies` int NOT NULL AUTO_INCREMENT,
   `title` varchar(45) NOT NULL,
@@ -32,3 +34,13 @@ CREATE TABLE `Actors` (
   `birthday` date DEFAULT NULL,
   PRIMARY KEY (`idActors`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+
+-- Dia 2
+
+SELECT * FROM new_schema.Actors;
+
+INSERT INTO actors (name, lastname, country, birthday) VALUES
+('Tom', 'Hanks', 'Estados Unidos', '1956-07-09'),
+('Roberto', 'Benigni', 'Italia', '1952-10-27'),
+('John', 'Travolta', 'Estados Unidos', '1954-02-18' );
